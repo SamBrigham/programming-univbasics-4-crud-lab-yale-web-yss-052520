@@ -1,14 +1,16 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  ["Sam", "Lucas", "Padfoot", "Hans"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+{array} << {element}
 end
+
+p add_element_to_end_of_array(create_an_array, "Carla")
 
 def add_element_to_start_of_array(array, element)
   
